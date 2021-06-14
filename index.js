@@ -1,6 +1,6 @@
 const selectFilterOptions = document.getElementById("filter_options");
 const iframePage = document.getElementById("page");
-const BASE_URL = "http://ec2-3-17-71-241.us-east-2.compute.amazonaws.com:8000/bar-chart";
+const BASE_URL = "https://arcane-mesa-16302.herokuapp.com/bar-chart";
 
 selectFilterOptions.addEventListener("change", function () {
   let filterRegion = selectFilterOptions.value;
