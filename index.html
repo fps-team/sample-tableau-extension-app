@@ -8,6 +8,18 @@
   <link rel="stylesheet" href="index.css" />
 </head>
 <body>
-  <iframe id="page" src="//ec2-3-17-71-241.us-east-2.compute.amazonaws.com:8000/bar-chart?region=amer"></iframe> 
+  <iframe id="page" src="http://ec2-3-17-71-241.us-east-2.compute.amazonaws.com:8000/bar-chart?region=amer"></iframe>
+  <div class="form-changer">
+    <p>
+      Region:
+      <select id="filter_options">
+        <option value="All">All</option>
+        <option value="AMER">AMER</option>
+        <option value="EMEA">EMEA</option>
+        <option value="APAC">APAC</option>
+      </select>
+    </p>
+  </div>
+  <script src="index.js"></script>
 </body>
 </html>
